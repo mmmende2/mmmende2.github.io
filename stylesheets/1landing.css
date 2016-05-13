@@ -1,0 +1,232 @@
+/*
+1landing.css
+Spring 2016
+Mario Mendez 
+ */
+
+ /**************************  GENREAL BODY STUFFS          *******************************************/
+ 
+ html, body {
+	 height: 98%;
+	 background-color: rgba(249,249,249, 1);
+	 font-family: Arial, sans-serif;
+	 text-align: center;
+ }
+ 
+ #main {
+	 margin: 10px auto 10px 0px; /* MARIO MARIO MARIO you want to move the slide show???? use opx*/
+	 
+ }
+ #wrapper {
+	 min-height: 100%; /* if you look above, you only have 99 or 98 percent, this would be a percent of that */
+	 margin: 0px auto -40px; /*MARIO MARIO MARIO Change to -30 if you want no scroll bar */
+	 padding-right: 17px; /* MARIO MARIO MARIO YOU want scroll padding? here herher here */
+	
+ }
+ 
+ /**************************  HEADER *******************************************/
+ 
+ /**highlighteted HEader*/
+ #home{
+	 background: #fec900;
+	 border-radius: 5%;
+	 
+ }
+ header ul a:hover { 
+	 background: #fec900;
+	 color: black; /*font color rgba(0,0,0,0.9)*/
+	 font-weight: bold;	
+	 border-radius: 5%;
+	 }
+	 
+  #logout:hover { 
+	 background: #fec900;
+	 color: black; /*font color rgba(0,0,0,0.9)*/
+	 font-weight: bold;	
+	 border-radius: 5%;
+	 text-shadow: none;
+	 }
+  
+  
+  
+  
+ 
+   #logout{
+	 background: #fec900;
+	 color: white;
+	 text-shadow: 2px 1px dimgrey;
+	 border-radius: 5%;
+	 margin-right: 35px;
+	 margin-top: 7px;
+	 padding-top: 15px;
+	 
+	 
+ }
+   
+ 
+ 
+ 
+ header{
+	 width: 98%;
+	 margin: 10px auto 10px auto; /* these are the margins of the header, 
+	 how they differ from paddting ? not too sure
+	 PADDING refers to the space INSIDE the element
+	 */
+	 /* top, right, bottom, left */
+	 padding: 10px;
+	 padding-bottom: 10px;
+	 border-bottom: double black;
+	 
+ }
+
+ header img{
+	 width: 75%;
+	 height: 75%;
+	 padding-bottom: 13px;
+	 border-radius: 5px;
+	 
+ } 
+ /* if you did a UL here, it would affect all of them */
+ header ul {
+	 /* cascading remember, broad to narrow*/
+	 margin: 0; /*not sure what this does, refferes to the ordered list */   
+	 padding: 0;
+	 list-style: none;
+	 overflow: hidden; /*but what does it all mean basil */
+	
+	 
+	 
+ }
+
+ header ul li{
+	 /*cascading, more specific here*/
+	 float: left; /*float, this is the firection of the text?  i guess lists float*/
+	 width: 11.5%; /*this is 9 percent for each item 11 bullets times 9% is 98% */
+	/*  margi2: center; */
+	 /*we turned on the margin to place it in the middel */
+	 text-align: justify;
+	 padding: 5px;
+	 
+	 
+ }
+ header ul a{ /*a is what, they ARE LINKS */
+	 color: grey; /*this is font color, */
+	 display: block; /* treat all these as one block, USE 'inherit'*/ 
+	 font-size: 16px; /*old browsers not ok*/
+	 font-weight: bold; 
+	  /*border-radius: 100px;gives an oval look huh */
+	 text-decoration: none;
+	 padding: 5px 0px 5px 4px; /*clock wise, top, right, bottom, left, */
+	 text-transform: uppercase;
+	 
+	 
+ }
+ 
+ /*this is where you can make CSS actionable, rgb is rgb but a is oppacity, alpha*/
+
+
+
+  /**************************  Footer *******************************************/
+  
+ #prefooter {
+	 height: 20px;
+	 clear: both;
+ }
+ #footer {
+	 color: grey;
+	 width: 100%;
+	 height: 20px;
+	 clear: both;
+	 padding-top: 20px;
+	 font-weight: bold;
+	 border-top: thin solid black;
+	 
+	 
+ }
+  
+ 
+ /* ***********************    ADVERT   *************************/
+ 
+ 
+	#slideShow a{
+		text-decoration: none;
+		color: black;
+		
+	}
+	
+	#slideShow img{
+		width: 90%;
+		height: 90%;
+		border: 1px solid black;
+		padding: 1px;
+		
+		
+		
+		
+	}
+	
+	.slide {
+		position: relative;
+	}
+	.imageTextTop {
+		position: absolute;
+		top: 60px;
+		left: 130px;
+		font-size: 100px;
+		font-family: Arial;
+		font-style: italic;
+		font-weight: bold;
+		
+		
+		
+		
+	}
+	#newArtist {
+		top: 250px;
+		left: 400px;
+		font-size: 200px;
+		position: absolute;
+		
+	}
+	
+	.imageTextBottom{
+		position: absolute;
+		top: 300px;
+		left: 400px;
+		font-size: 110px;
+		font-family: Arial;
+		font-style: italic;
+		font-weight: bold;
+		color: white;
+		
+		
+		
+	}
+	
+	.imageTextCenter {
+		top: -20px;
+		left: 70px;
+		font-size: 450px;
+		position: absolute;
+		font-family: Arial;
+		font-style: italic;
+		font-weight: bold;
+		
+	}
+	
+	 .martText { /*this is your prettty pretty text*/
+	 color: white;
+	 text-shadow: 8px 8px 0px black, 5px 5px 10px black;
+	 
+	}
+	.opaque {
+		opacity: .1;
+		
+		
+	}
+	
+	
+ /* ***********************    EXTRA NOTES  *************************/
+ 
+ 
+ 

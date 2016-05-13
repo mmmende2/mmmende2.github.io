@@ -1,0 +1,210 @@
+/*
+1landing.css
+Spring 2016
+Mario Mendez 
+ */
+ 
+ /* Notes
+selector: {apply style here}
+selector: {property: value/setting; }
+ 
+ 
+ prefeace a 
+ 
+ */
+
+ .imagelist ul li {
+	 /*cascading, more specific here*/
+	 float: left;
+	 width: 20%; /* this is 7 percent for each item 14 bullets times 7% is 98% */
+	 padding-top: 15px;
+	 padding-bottom: 15px;
+	 /*we turned on the margin to place it in the middel */
+	 text-align: justify;
+	 list-style-type: none;
+ }
+ 
+ 
+ .imagelist img {
+	 height: 150px;
+	 border-radius: 5px;
+	 
+ }
+ 
+ .imagelist img:hover{
+	 border-radius: 5px;
+     opacity: 0.5;
+	 
+ }
+ 
+ .mySlides {
+	display: none;	
+	
+}
+ /**************************  GENREAL BODY STUFFS          *******************************************/
+ 
+ html, body {
+	 height: 100%;
+	 background-color: rgba(249,249,249, 1);
+	 font-family: Arial, sans-serif;
+	 text-align: center;
+ }
+ 
+ #wrapper {
+	 min-height: 100%; /* if you look above, you only have 99 or 98 percent, this would be a percent of that */
+	 margin: 0px auto -20px;
+	 padding-right: 17px; /* MARIO MARIO MARIO YOU want scroll padding? here herher here */
+	  /*how to make a sticky footer*/
+ }
+ 
+ /**************************  HEADER *******************************************/
+ 
+ /**highlighteted HEader*/
+ #home{
+	 background: #fec900;
+	 border-radius: 5%;
+	 
+ }
+ header ul a:hover { 
+	 background: #fec900;
+	 color: black; /*font color rgba(0,0,0,0.9)*/
+	 font-weight: bold;	
+	 border-radius: 5%;
+	 }
+	 
+  #logout:hover { 
+	 background: #fec900;
+	 color: black; /*font color rgba(0,0,0,0.9)*/
+	 font-weight: bold;	
+	 border-radius: 5%;
+	 text-shadow: none;
+	 }
+  
+  
+  
+  
+ 
+   #logout{
+	 background: #fec900;
+	 color: white;
+	 text-shadow: 2px 1px dimgrey;
+	 border-radius: 5%;
+	 margin-right: 35px;
+	 margin-top: 7px;
+	 padding-top: 15px;
+	 
+	 
+ }
+   
+ 
+ 
+ 
+ header{
+	 width: 98%;
+	 margin: 10px auto 10px auto; /* these are the margins of the header, 
+	 how they differ from paddting ? not too sure
+	 PADDING refers to the space INSIDE the element
+	 */
+	 /* top, right, bottom, left */
+	 padding: 10px;
+	 padding-bottom: 10px;
+	 border-bottom: double black;
+	 
+ }
+
+ header img{
+	 width: 75%;
+	 height: 75%;
+	 padding-bottom: 13px;
+	 border-radius: 5px;
+	 
+ } 
+ /* if you did a UL here, it would affect all of them */
+ header ul {
+	 /* cascading remember, broad to narrow*/
+	 margin: 0; /*not sure what this does, refferes to the ordered list */   
+	 padding: 0;
+	 list-style: none;
+	 overflow: hidden; /*but what does it all mean basil */
+	
+	 
+	 
+ }
+
+ header ul li{
+	 /*cascading, more specific here*/
+	 float: left; /*float, this is the firection of the text?  i guess lists float*/
+	 width: 11.5%; /*this is 9 percent for each item 11 bullets times 9% is 98% */
+	/*  margi2: center; */
+	 /*we turned on the margin to place it in the middel */
+	 text-align: justify;
+	 padding: 5px;
+	 
+	 
+ }
+ header ul a{ /*a is what, they ARE LINKS */
+	 color: grey; /*this is font color, */
+	 display: block; /* treat all these as one block, USE 'inherit'*/ 
+	 font-size: 16px; /*old browsers not ok*/
+	 font-weight: bold; 
+	  /*border-radius: 100px;gives an oval look huh */
+	 text-decoration: none;
+	 padding: 5px 0px 5px 4px; /*clock wise, top, right, bottom, left, */
+	 text-transform: uppercase;
+	 
+	 
+ }
+ 
+ /*this is where you can make CSS actionable, rgb is rgb but a is oppacity, alpha*/
+
+
+
+  /**************************  Footer *******************************************/
+  
+ #prefooter {
+	 height: 20px;
+	 clear: both;
+ }
+ #footer {
+	 color: grey;
+	 width: 100%;
+	 height: 20px;
+	 clear: both;
+	 padding-top: 20px;
+	 font-weight: bold;
+	 border-top: thin solid black;
+	 
+	 
+ }
+  
+ 
+
+ 
+ /* ***********************    EXTRA NOTES  *************************/
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+	 
+	 /*these are the labels for the inputs*/
+ }
+/*  input[type=textarea]{
+	 /* width: 200px;
+	 border-radius: 9px;
+	 padding: 2px; 
+	 background: #fff no-repeat top right;
+ 
+	 
+	 label{
+	 width: 11em;
+	 float: left;
+	 text-align: left;
+	 padding-left:	30px;
+	
+ } */
+ 
